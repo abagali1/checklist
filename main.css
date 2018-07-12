@@ -1,0 +1,10 @@
+div.todo-content{
+    box-shadow: 10px 10px 5px grey;
+}
+.finished{
+    color: red;
+}
+.prog-bar {
+    height: 10px;
+    background-color: #4CAF50;
+}

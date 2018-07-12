@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO List</title>
+    <link rel="stylesheet" href="main.css" type="text/css" media="screen" title="no title">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+<script type="text/template" class="finished-template">
+    <div class="announcement">
+        <h1 class="finished-title">
+            FINISHED_TITLE
+        </h1>
+        <div class="finished-content">
+            FINISHED_CONTENT
+        </div>
+    </div>
+</script>
+<div class="list">
+</div>
+<div class="todo">
+</div>
+<script type="text/template" class="todo-template">
+    <h1 class="todo-title">
+        TODO_TITLE
+    </h1>
+    <div class="todo-content">
+        TODO_CONTENT
+    </div>
+    <div class="prog-bar" style="width:1%" id="">
+        PROG_BAR
+    </div>
+</script>
+<div id="bar" style="width: 1%">
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
